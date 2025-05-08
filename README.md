@@ -46,33 +46,7 @@ Importance of categorical feature encoding and proper scaling was reinforced.
 🗂️ Task 2: Dataset
 📥 https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies
 
-🚀 How to Run
-Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/movie-rating-prediction.git
-cd movie-rating-prediction
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the model script
-
-bash
-Copy
-Edit
-python model_training.py
-📈 Model Performance Example
-Model	MSE	MAE	R² Score
-Logistic Regression	1.67	1.04	0.11
-Random Forest Regressor	1.18	0.82	0.37
-XGBoost Regressor	1.14	0.80	0.39
-
-⚠️ Note: XGBoost had better training performance but showed signs of overfitting.
 
 🔧 Future Improvements
 Implement GridSearchCV for hyperparameter tuning
